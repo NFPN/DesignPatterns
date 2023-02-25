@@ -34,8 +34,6 @@
             customer.ExecuteCommand();
 
             customer.ShowCurrentOrder();
-
-            Console.ReadKey();
         }
     }
 }

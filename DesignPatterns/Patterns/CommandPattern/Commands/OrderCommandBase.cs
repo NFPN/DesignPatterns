@@ -1,7 +1,7 @@
 ﻿namespace DesignPatterns.Patterns.CommandPattern.Commands
 {
     /// <summary>
-    /// The Command abstract class
+    /// The Command Base abstract class
     /// </summary>
     public abstract class OrderCommandBase
     {
