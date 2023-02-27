@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Patterns;
 using DesignPatterns.Patterns.CommandPattern;
+using DesignPatterns.Patterns.CompositePattern;
 using DesignPatterns.Patterns.MediatorPattern;
 
 namespace DesignPatterns
@@ -8,8 +9,9 @@ namespace DesignPatterns
     {
         private static List<ISampleRunner> Samples => new()
         {
-            new CommandPatternSample(),
             new MediatorPatternSample(),
+            new CommandPatternSample(),
+            new CompositePatternSample(),
         };
 
         private static void Main(string[] args)
