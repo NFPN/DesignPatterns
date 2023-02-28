@@ -2,6 +2,7 @@
 using DesignPatterns.Patterns.CommandPattern;
 using DesignPatterns.Patterns.CompositePattern;
 using DesignPatterns.Patterns.MediatorPattern;
+using DesignPatterns.Patterns.VisitorPattern;
 
 namespace DesignPatterns
 {
@@ -12,6 +13,7 @@ namespace DesignPatterns
             new MediatorPatternSample(),
             new CommandPatternSample(),
             new CompositePatternSample(),
+            new VisitorPatternSample(),
         };
 
         private static void Main(string[] args)

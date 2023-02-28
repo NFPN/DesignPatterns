@@ -17,10 +17,10 @@ namespace DesignPatterns.Patterns.VisitorPattern.Visitors
             if (element is not Employee employee)
                 return;
 
-            //Salary raise
+            var previousSalary = employee.AnnualSalary;
             employee.AnnualSalary *= 1.10;
 
-            Console.WriteLine($"{employee.GetType().Name} {employee.Name}'s new income? {employee.AnnualSalary:C2}");
+            Console.WriteLine($"{employee.GetType().Name} {employee.Name}'s income raised from {previousSalary:C2} to {employee.AnnualSalary:C2}");
         }
     }
 }
