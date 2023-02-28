@@ -4,7 +4,7 @@
     /// Defines a send message method 
     /// which the concrete mediators must implement.
     /// </summary>
-    interface IConsessionMediator
+    internal interface IConsessionMediator
     {
         /// <summary>
         /// Notify all colleagues but the <paramref name="senderStand"/>
